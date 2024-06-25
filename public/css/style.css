@@ -1,0 +1,109 @@
+.navbar {
+    background-color: #343434; 
+    padding: 10px 0; /* Padding for the navbar */
+    margin-bottom: 20px; /* Space below the navbar */
+    text-align: center; /* Center-align the content */
+}
+
+.navbar a {
+    display: inline-block; /* Ensure buttons are inline */
+    padding: 8px 16px; /* Padding for buttons */
+    margin: 0 10px; /* Margin between buttons */
+    color: #fff; /* White text */
+    text-decoration: none; /* Remove underline */
+    background-color: #3490dc; /* Blue button background */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    text-align: center; /* Center-align button text */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #2779bd; /* Darker blue on hover */
+}
+.label-text {
+    color: #fffffffb; /* Change this to your desired color */
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #414141; /* Light gray background */
+    color: #333; /* Dark gray text */
+    margin-top: 20px;
+}
+
+h1 {
+    color: #007bff; /* Blue heading */
+    margin-bottom: 20px;
+}
+
+.table {
+    background-color: #fff; /* White table background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.table th,
+.table td {
+    border: none; /* Remove default borders */
+    vertical-align: middle;
+    text-align: center; /* Center-align content */
+    padding: 10px;
+}
+
+.table th {
+    background-color: #007bff; /* Blue header */
+    color: #fff; /* White text */
+    border-radius: 8px 8px 0 0; /* Rounded top corners */
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row background */
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #ddd; /* Light gray border */
+}
+
+.actions {
+    white-space: nowrap; /* Prevent line breaks */
+}
+
+.btn {
+    padding: 6px 12px; /* Compact button padding */
+    font-size: 14px; /* Medium font size */
+}
+
+.btn-primary {
+    background-color: #28a745; /* Green primary button */
+    border-color: #28a745; /* Green border */
+    color: #fff; /* White text */
+}
+
+.btn-primary:hover {
+    background-color: #218838; /* Darker green on hover */
+    border-color: #1e7e34; /* Darker green border on hover */
+}
+
+.btn-info {
+    background-color: #17a2b8; /* Blue info button */
+    border-color: #17a2b8; /* Blue border */
+    color: #fff; /* White text */
+}
+
+.btn-info:hover {
+    background-color: #138496; /* Darker blue on hover */
+    border-color: #117a8b; /* Darker blue border on hover */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Red danger button */
+    border-color: #dc3545; /* Red border */
+    color: #fff; /* White text */
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Darker red on hover */
+    border-color: #bd2130; /* Darker red border on hover */
+}
